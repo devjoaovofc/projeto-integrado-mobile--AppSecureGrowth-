@@ -1,56 +1,87 @@
-# Welcome to your Expo app 👋
+<div align="center">
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 💜 Secure Growth
 
-## Get started
+**Controle financeiro simples, seguro e com cara de futuro.**
 
-1. Install dependencies
+![React Native](https://img.shields.io/badge/React_Native-Expo-5B2A86?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3D1F6B?style=for-the-badge&logo=typescript&logoColor=white)
+![Status](https://img.shields.io/badge/status-em_desenvolvimento-8E5BD0?style=for-the-badge)
 
-   ```bash
-   npm install
-   ```
+</div>
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📖 Sobre o projeto
 
-In the output, you'll find options to open the app in a
+O **Secure Growth** é um aplicativo mobile de **controle financeiro pessoal** desenvolvido como projeto acadêmico do curso de Engenharia de Software. A proposta é ajudar o usuário a entender para onde seu dinheiro vai, organizar receitas e despesas e construir hábitos financeiros saudáveis, tudo em uma interface moderna, limpa e inteiramente em tons de roxo.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+O nome resume a ideia central: **crescer financeiramente com segurança**.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## ✨ Funcionalidades
 
-## Get a fresh project
+- 🔐 **Autenticação:** login, cadastro e recuperação de senha
+- 📊 **Dashboard:** visão geral das finanças em um só lugar
+- 💸 **Receitas e despesas:** registro e acompanhamento das movimentações
+- 🗂️ **Categorias:** organização dos gastos por tipo
+- 📱 **Mais de 14 telas** prototipadas no Figma
 
-When you're ready, run:
+> 🚧 Projeto em desenvolvimento: as funcionalidades acima estão sendo implementadas gradualmente.
+
+## 🎨 Identidade visual
+
+O app segue a paleta **Vivid Nightfall**, que vai do roxo mais escuro ao mais claro, com **branco** como cor de apoio. O ícone é um **toggle/switch** (pílula com bolinha) em estilo app icon, simbolizando controle e simplicidade.
+
+| Cor | Uso |
+| --- | --- |
+| 🟣 Roxos (escuro → claro) | Fundos, botões, destaques e gráficos |
+| ⚪ Branco | Textos, cards e áreas de respiro |
+
+## 🛠️ Tecnologias
+
+- [React Native](https://reactnative.dev/) com [Expo](https://expo.dev/)
+- [Expo Router](https://docs.expo.dev/router/introduction) (rotas baseadas em arquivos)
+- TypeScript
+- Figma (prototipação)
+
+## 🚀 Como rodar
 
 ```bash
-npm run reset-project
+# 1. Clone o repositório
+git clone https://github.com/devjoaovofc/NOME-DO-REPOSITORIO.git
+cd NOME-DO-REPOSITORIO
+
+# 2. Instale as dependências
+npm install
+
+# 3. Inicie o app
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Depois, abra no **Expo Go**, em um emulador **Android**/**iOS** ou em um *development build*.
 
-### Other setup steps
+## 📁 Estrutura
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```
+app/          # Telas e rotas (Expo Router)
+assets/       # Imagens, ícones e fontes
+components/   # Componentes reutilizáveis
+```
 
-## Learn more
+## 👥 Equipe
 
-To learn more about developing your project with Expo, look at the following resources:
+Projeto desenvolvido por um grupo de 8 estudantes:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+João Vitor (líder) · Alex · André Luiz · Dan · João Pedro · Luizin · Raí Lugano · Vitin · Mathaus · Vinicius
 
-## Join the community
+## 📄 Licença
 
-Join our community of developers creating universal apps.
+Projeto acadêmico, sem fins comerciais.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+<div align="center">
+
+Feito com 💜 pela equipe **Secure Growth**
+
+</div>
